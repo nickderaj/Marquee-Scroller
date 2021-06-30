@@ -51,6 +51,11 @@ body {
   display: flex;
   animation: scrolling 5s linear infinite;
 }
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
 @keyframes scrolling {
   0% {
     transform: translateX(0vw);
