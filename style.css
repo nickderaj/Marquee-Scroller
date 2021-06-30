@@ -95,7 +95,7 @@ body {
   }
   :root {
     --marquee-width: 100vw;
-    --marquee-height: 16vh;
+    --marquee-height: 35vh;
     --marquee-elements-displayed: 3;
   }
   .marquee:before,
