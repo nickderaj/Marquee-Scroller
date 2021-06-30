@@ -28,4 +28,24 @@ body {
   list-style: none;
   height: 100%;
   display: flex;
+  animation: scrolling 5s linear infinite;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-180vw);
+  }
+}
+
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid teal; */
+  width: 20vw;
+  flex-shrink: 0;
+  font-size: 5rem;
+  white-space: nowrap;
 }
