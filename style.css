@@ -19,7 +19,7 @@ body {
 :root {
   --marquee-width: 80vw;
   --marquee-height: 20vh;
-  --marquee-elements: 9;
+  /* --marquee-elements: 9; */
   --marquee-elements-displayed: 4;
   --marquee-element-width: calc(
     var(--marquee-width) / var(--marquee-elements-displayed)
